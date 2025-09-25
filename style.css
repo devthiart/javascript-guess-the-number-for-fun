@@ -56,11 +56,18 @@ body::before {
     border-radius: 16px;
     background: #1875E8;
     padding: 16px 24px;
-    width: 100%;
+    width: 50%;
     font-size: 24px;
     font-weight: 700;
     border: none;
     margin-top: 16px;
+}
+
+.container__campo-texto {
+    border-radius: 16px;
+    width: 90%;
+    padding: 16px 24px;
+    border: 2px solid #041832;
 }
 
 .container__texto {
@@ -71,6 +78,10 @@ body::before {
     color: #1875E8;
 }
 
+.container__unable {
+    display: none;
+}
+
 h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 72px;
@@ -78,8 +89,9 @@ h1 {
 
 h2,
 p,
-button {
+button, input {
     font-family: 'Inter', sans-serif;
+    background-color: #1354A5;
 }
 
 h2 {
